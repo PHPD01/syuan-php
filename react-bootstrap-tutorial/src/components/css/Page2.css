@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    text-align: center;
+  }
+  
+  /* 左半部設定 */
+  #restaurantLeft {
+    position: fixed;
+    background-color: rgb(243, 243, 243);
+    width: 10%;
+    height: 100%;
+    text-align: center;
+  }
+  
+  /* 右半部設定 */
+  #restaurantRight {
+    position: relative;
+    width: 90%;
+    left: 10%;
+    text-align: center;
+  }
+  
+  /*------------ 1-1 navbar ------------*/
+  .bg-light {
+    background-color: rgb(255, 228, 138) !important;
+  }
+  
+  /*------------ 5-3 店家資訊區塊 ------------*/
+
+  /* .storepicSection{
+    border: 1px solid black;
+    margin: 20px;
+    width: 50%;
+} */
+
+/* .storecommentSction{
+    border: 1px solid black;
+    margin: 20px;
+    width: 50%;
+    position: relative;
+    left: 48%;
+} */
+
+.storeSection{
+    /* border: 1px solid black; */
+    /* background-color: rgb(197, 238, 240); */
+    margin: 20px;
+    
+}
+
+.row > div{
+    border: 1px solid rgb(231, 0, 0);
+    position: relative;
+    /* left: 5%; */
+    height: 250px;
+
+}
+
+/*------------ 5-2 店家照片 ------------*/
+.storepic{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+/*------------ 5-3 店家資訊 ------------*/
+.storeinfor{
+    text-align: left;
+    line-height: 1.8em;
+}
+
+/* 店家地址、店家標籤換行 */
+.storeaddress,.storetag{
+    word-wrap:break-word;
+}
+  
+  /*------------ 1-11 footer ------------*/
+  footer {
+    /* border: 1px solid black; */
+    background-color: rgba(209, 208, 208, 0.829);
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    bottom: 0;
+    color: gray;
+    /* padding: 20px; */
+    /* background-color: blue; */
+  }
+ 
+  

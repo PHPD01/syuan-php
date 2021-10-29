@@ -1,0 +1,24 @@
+.containerr{
+    padding: 0!important;
+    max-width: 100% !important;
+}
+
+.navheight{
+    /* position: sticky; */
+    font-size: 20px;
+    height: 55px;
+
+}
+
+/* fixed:可以整個navbar固定住
+加上縮小時，右半邊會被navbar遮蓋住 */
+.containerr{
+    position: fixed;
+    z-index: 999;
+
+}
+
+.navlink{
+    position: relative;
+    z-index: 989;
+}
