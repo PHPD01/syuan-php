@@ -14,7 +14,7 @@ function Navbarr() {
         <div>
             <Container className="containerr">
                 <Navbar bg="light" expand="lg" className="navheight">
-                    <Container fluid>
+                    <Container fluid className="navbgc">
                         <Navbar.Brand href="#">LOGO</Navbar.Brand>
                         <Navbar.Toggle aria-controls="navbarScroll" />
                         <Navbar.Collapse id="navbarScroll">

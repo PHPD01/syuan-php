@@ -75,12 +75,12 @@
 
       /* 只有按鈕會上移，標題不會 */
       position: relative;
-      top: -530px;
+      /* top: -530px; */
         }   
 
 /* 標題只能有背景色，可是沒辦法上移位子 */
         .Citytype_section, .Citytype_east{
-          /* background-color: rgba(4, 136, 37, 0.171); */
+          background-color: rgba(4, 136, 37, 0.171);
           position: relative;
           top: -530px;
         }

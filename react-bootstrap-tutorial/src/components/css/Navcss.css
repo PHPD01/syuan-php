@@ -13,7 +13,9 @@
 /* fixed:可以整個navbar固定住
 加上縮小時，右半邊會被navbar遮蓋住 */
 .containerr{
-    position: fixed;
+
+    /* rwd設 */
+    /* position: fixed; */
     z-index: 999;
 
 }
@@ -22,3 +24,15 @@
     position: relative;
     z-index: 989;
 }
+
+@media only screen and (min-width: 300px) and (max-width: 999px)   {
+    
+    .containerr{
+
+        /* rwd設 */
+        position: fixed;
+        z-index: 999;
+    
+    }
+       
+  }

@@ -21,7 +21,7 @@
       /* background-color: rgba(168, 178, 32, 0.219);         */
         position:relative;
         left: -100%;
-        top: 530px;
+        /* top: 530px; */
         text-align: center;
         width: 50px;
     }
