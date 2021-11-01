@@ -11,6 +11,7 @@ export default class CitytypePage extends Component {
             <div className="page2mdstyle">
                 <div id="restaurantLeft">
 
+                    {/* 左側篩選器 */}
                     <div>
                         <form action="">
                             <p>營業</p>
@@ -20,6 +21,7 @@ export default class CitytypePage extends Component {
                     </div>
                 </div>
 
+                {/* 右側店家列表 */}
                 <section>
                     <div id="restaurantRight">
                         <section className="storeSection">

@@ -90,9 +90,7 @@ function LftButton() {
                 <div className="FoodtypeGrid">
                     <div className="FoodtypeGrid_title"></div>
                     <div>
-                        <a href="#">
-                            <button type="button" className="btn btn-outline-warning">中式</button>
-                        </a>
+                        <Button as={Link} to={"/foodtypePage"} variant="outline-warning">中式</Button>
                     </div>
                     <div>
                         <a href="#">
@@ -176,7 +174,5 @@ function LftButton() {
         </div>
     );
 }
-
-
 
 export default LftButton;
