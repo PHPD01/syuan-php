@@ -3,6 +3,12 @@ import '../components/css/Page2.css';
 import carouselIMG from '../carouselIMG.jpg';
 import emailbacktop from '../emailbacktop.png';
 import upbacktop from '../upbacktop.png';
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+} from "react-router-dom";
 
 export default class CitytypePage extends Component {
     render() {
@@ -27,9 +33,9 @@ export default class CitytypePage extends Component {
                         <section className="storeSection">
                             <div className="row ">
                                 <div className="col-3 ">
-                                    <a href="" className="">
+                                    <Link to="/ResterauntPage">
                                         <img className="storepic" src={carouselIMG} alt="" />
-                                    </a>
+                                    </Link>
                                 </div>
                                 <div className="col-3 storeinfor">
                                     <div>店名：citytype</div>

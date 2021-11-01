@@ -6,6 +6,12 @@ import Navbarr from './components/Navbarr';
 // import Left from './components/Left';
 // import Right from './components/Right';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
 
 function App() {
@@ -15,6 +21,7 @@ function App() {
       </Navbarr>
       {/* <Left className="leftrwd"></Left> */}
       {/* <Right className="rightrwd"></Right> */}
+
 
     </div>
   );

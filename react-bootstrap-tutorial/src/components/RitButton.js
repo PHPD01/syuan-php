@@ -165,7 +165,7 @@ function RitButton() {
                     </div>
                 </div>
 
-                <div>
+                {/* <div>
                     <Switch>
                         <Route path="/page2">
                             <Page2 />
@@ -180,7 +180,7 @@ function RitButton() {
                             <MemberPage />
                         </Route>
                     </Switch>
-                </div>
+                </div> */}
 
             </section>
 

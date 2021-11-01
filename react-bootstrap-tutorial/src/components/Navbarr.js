@@ -16,6 +16,7 @@ import FoodtypePage from "./FoodtypePage";
 import CitytypePage from "./CitytypePage";
 import MemberPage from "./MemberPage";
 import Home from "./Home";
+import ResterauntPage from "./ResterauntPage";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -65,15 +66,9 @@ function Navbarr() {
 
                 <div>
                     <Switch>
-                        {/*舉例解釋： Route只要偵測到目前的path「有包含你設定的字串」就會顯示該頁面，
-                        當多個route符合時，Switch會導向第一個符合的Route，
-                        所以你在http://localhost:3000/#/second 的時候實際上是顯示firstPage。
-                        所以要透過在firstPage的Route的props當中加上 exact 這個屬性，
-                        這個props會讓Route必須偵測到目前路徑完全符合path中的字串時才會顯示該頁面*/}
                         <Route exact path="/">
                             <Home />
                         </Route>
-
                         <Route path="/foodtypePage">
                             <FoodtypePage />
                         </Route>
@@ -83,10 +78,20 @@ function Navbarr() {
                         <Route path="/memberPage">
                             <MemberPage />
                         </Route>
+                        <Route path="/resterauntPage">
+                            <ResterauntPage />
+                        </Route>
                     </Switch>
+                    {/*舉例解釋： Route只要偵測到目前的path「有包含你設定的字串」就會顯示該頁面，
+                        當多個route符合時，Switch會導向第一個符合的Route，
+                        所以你在http://localhost:3000/#/second 的時候實際上是顯示firstPage。
+                        所以要透過在firstPage的Route的props當中加上 exact 這個屬性，
+                        這個props會讓Route必須偵測到目前路徑完全符合path中的字串時才會顯示該頁面*/}
                 </div>
 
             </Router>
+
+
 
 
         </div>

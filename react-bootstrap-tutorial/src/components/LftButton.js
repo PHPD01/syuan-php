@@ -85,7 +85,9 @@ function LftButton() {
                     <div className="FoodtypeGrid_title">料理類型</div>
                 </div>
             </section>
+
             {/* <hr /> */}
+
             <section className="Foodtype">
                 <div className="FoodtypeGrid">
                     <div className="FoodtypeGrid_title"></div>
@@ -152,7 +154,7 @@ function LftButton() {
                     <div className="FoodtypeGrid_title">餐廳類型</div>
                 </div>
 
-                <div>
+                {/* <div>
                     <Switch>
                         <Route path="/page2">
                             <Page2 />
@@ -167,7 +169,7 @@ function LftButton() {
                             <MemberPage />
                         </Route>
                     </Switch>
-                </div>
+                </div> */}
 
             </section>
 

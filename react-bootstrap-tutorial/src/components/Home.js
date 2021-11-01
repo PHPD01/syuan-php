@@ -20,6 +20,7 @@ export default class Home extends Component {
                 <Left className="leftrwd"></Left>
                 <Right className="rightrwd"></Right>
 
+
             </div>
 
         )
