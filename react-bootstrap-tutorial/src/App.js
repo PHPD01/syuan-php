@@ -11,9 +11,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <div className="App">
-      <Navbarr className="navbar_pos"></Navbarr>
-      <Left className="leftrwd"></Left>
-      <Right className="rightrwd"></Right>
+      <Navbarr className="navbar_pos">
+      </Navbarr>
+      {/* <Left className="leftrwd"></Left> */}
+      {/* <Right className="rightrwd"></Right> */}
+
     </div>
   );
 }
