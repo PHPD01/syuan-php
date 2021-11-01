@@ -6,25 +6,29 @@ import '../components/css/LftButton.css';
 // import carouselIMG from '../carouselIMG.jpg';
 import { Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+} from "react-router-dom";
+import FoodtypePage from "./FoodtypePage";
+import CitytypePage from "./CitytypePage";
+import MemberPage from "./MemberPage";
+import Page2 from "./Page2";
 
 function LftButton() {
 
     return (
         <div>
-
             <section className="Foodtype">
                 <div className="FoodtypeGrid">
                     <div className="FoodtypeGrid_title"></div>
                     <div>
-                        <a href="#">
-                            <button type="button" className="btn btn-outline-warning">小吃</button>
-                        </a>
+                        <Button as={Link} to={"/foodtypePage"} variant="outline-warning">小吃</Button>
                     </div>
                     <div>
-                        <a href="#">
-                            <button type="button" className="btn btn-outline-warning">燒烤</button>
-                        </a>
+                        <Button as={Link} to={"/foodtypePage"} variant="outline-warning">燒烤</Button>
                     </div>
                     <div>
                         <a href="#">
@@ -149,6 +153,24 @@ function LftButton() {
                     </div>
                     <div className="FoodtypeGrid_title">餐廳類型</div>
                 </div>
+
+                <div>
+                    <Switch>
+                        <Route path="/page2">
+                            <Page2 />
+                        </Route>
+                        <Route path="/foodtypePage">
+                            <FoodtypePage />
+                        </Route>
+                        <Route path="/citytypePage">
+                            <CitytypePage />
+                        </Route>
+                        <Route path="/memberPage">
+                            <MemberPage />
+                        </Route>
+                    </Switch>
+                </div>
+
             </section>
 
         </div>

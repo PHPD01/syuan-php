@@ -3,8 +3,8 @@
 import './App.css';
 import Navbarr from './components/Navbarr';
 // import Carousell from './components/Carousell';
-import Left from './components/Left';
-import Right from './components/Right';
+// import Left from './components/Left';
+// import Right from './components/Right';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 

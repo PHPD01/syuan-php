@@ -22,6 +22,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function Navbarr() {
     return (
         <div>
+
             <Router>
                 <Container className="containerr">
                     <Navbar bg="light" expand="lg" className="navheight">
@@ -64,6 +65,11 @@ function Navbarr() {
 
                 <div>
                     <Switch>
+                        {/*舉例解釋： Route只要偵測到目前的path「有包含你設定的字串」就會顯示該頁面，
+                        當多個route符合時，Switch會導向第一個符合的Route，
+                        所以你在http://localhost:3000/#/second 的時候實際上是顯示firstPage。
+                        所以要透過在firstPage的Route的props當中加上 exact 這個屬性，
+                        這個props會讓Route必須偵測到目前路徑完全符合path中的字串時才會顯示該頁面*/}
                         <Route exact path="/">
                             <Home />
                         </Route>

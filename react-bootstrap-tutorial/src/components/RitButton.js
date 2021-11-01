@@ -7,7 +7,16 @@ import '../components/css/RitButton.css';
 import { Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
-
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+} from "react-router-dom";
+import FoodtypePage from "./FoodtypePage";
+import CitytypePage from "./CitytypePage";
+import MemberPage from "./MemberPage";
+import Page2 from "./Page2";
 
 function RitButton() {
 
@@ -17,13 +26,11 @@ function RitButton() {
                 <div className="CitytypeGrid">
                     <div className="Citytype_section">北部</div>
                     <div>
-                        <a href="">
-                            <button type="button" className="btn btn-outline-success citytype_btn">臺北</button>
-                        </a>
+                        <Button as={Link} to={"/citytypepage"} variant="outline-success">台北</Button>
                     </div>
                     <div>
                         <a href="">
-                            <button type="button" className="btn btn-outline-success citytype_btn">新北</button>
+                            <Button as={Link} to={"/citytypepage"} variant="outline-success">新北</Button>
                         </a>
                     </div>
                     <div>
@@ -157,6 +164,24 @@ function RitButton() {
                         </a>
                     </div>
                 </div>
+
+                <div>
+                    <Switch>
+                        <Route path="/page2">
+                            <Page2 />
+                        </Route>
+                        <Route path="/foodtypePage">
+                            <FoodtypePage />
+                        </Route>
+                        <Route path="/citytypePage">
+                            <CitytypePage />
+                        </Route>
+                        <Route path="/memberPage">
+                            <MemberPage />
+                        </Route>
+                    </Switch>
+                </div>
+
             </section>
 
         </React.Fragment >

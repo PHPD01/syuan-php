@@ -2,7 +2,7 @@
 // import logo from './logo.svg';
 
 // 引入
-// import '../components/css/LftButton.css';
+import '../components/css/Page2.css';
 import carouselIMG from '../carouselIMG.jpg';
 // import { Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';

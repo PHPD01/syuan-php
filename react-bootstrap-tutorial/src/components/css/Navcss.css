@@ -1,6 +1,10 @@
 .containerr{
     padding: 0!important;
     max-width: 100% !important;
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    
 }
 
 .navheight{
@@ -10,19 +14,11 @@
 
 }
 
-/* fixed:可以整個navbar固定住
-加上縮小時，右半邊會被navbar遮蓋住 */
-.containerr{
 
-    /* rwd設 */
-    /* position: fixed; */
-    z-index: 999;
-
-}
 
 .navlink{
     position: relative;
-    z-index: 989;
+    z-index: 999;
 }
 
 
@@ -30,12 +26,20 @@
 
 @media only screen and (min-width: 300px) and (max-width: 999px)   {
     
-    .containerr{
-
-        /* rwd設 */
+    .containerr{        
         position: fixed;
-        z-index: 999;
+        top: 0px;
+        z-index: 999;    
+    }
+       
+  }
+
+  @media only screen and (min-width: 999px) and (max-width: 1499px)   {
     
+    .containerr{        
+        position: fixed;
+        top: 0px;
+        z-index: 999;    
     }
        
   }
