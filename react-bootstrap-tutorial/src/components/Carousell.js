@@ -6,6 +6,7 @@
 // 引入
 import '../components/css/CarouselCSS.css';
 import carouselIMG from '../carouselIMG.jpg';
+// import carouselIMG from '../../public/carouselIMG10.jpg';
 import { Carousel } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Button from '@restart/ui/esm/Button';
@@ -21,21 +22,21 @@ function Carousell() {
                 <Carousel.Item>
                     <img
                         className="d-block w-100 "
-                        src={carouselIMG}
+                        src="/images/carouselIMG11.jpg"
                         alt="First slide"
                     />
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src={carouselIMG}
+                        src="/images/carouselIMG11.jpg"
                         alt="Second slide"
                     />
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src={carouselIMG}
+                        src="/images/carouselIMG11.jpg"
                         alt="Third slide"
                     />
                 </Carousel.Item>

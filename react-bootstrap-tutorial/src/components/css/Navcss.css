@@ -4,7 +4,12 @@
     z-index: 999;
     position: fixed;
     top: 0;
-    
+    color: rgb(122, 100, 87);
+}
+
+.navbgc{
+    /* background-color: rgb(255, 136, 68) !important; */
+
 }
 
 .navheight{
@@ -19,8 +24,16 @@
 .navlink{
     position: relative;
     z-index: 999;
+    color: rgb(122, 100, 87);
 }
 
+.logoname{
+    font-weight: bold;
+    position: relative;
+    left: 5px;
+    /* background-color: rgb(122, 100, 87);     */
+    color: rgb(122, 100, 87) !important;
+}
 
 
 

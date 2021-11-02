@@ -28,7 +28,7 @@ function Navbarr() {
                 <Container className="containerr">
                     <Navbar bg="light" expand="lg" className="navheight">
                         <Container fluid className="navbgc">
-                            <Navbar.Brand href="/">LOGO</Navbar.Brand>
+                            <Navbar.Brand href="/" className="logoname" >餵for me</Navbar.Brand>
                             <Navbar.Toggle aria-controls="navbarScroll" />
                             <Navbar.Collapse id="navbarScroll">
                                 <Nav
@@ -38,7 +38,7 @@ function Navbarr() {
                                 >
                                     {/* <Nav.Link as={Link} to={"/home"} className="navlink">home</Nav.Link> */}
                                     <Nav.Link as={Link} to={"/foodtypePage"} className="navlink">類型篩選</Nav.Link>
-                                    <Nav.Link as={Link} to={"/citytypePage"}>縣市篩選</Nav.Link>
+                                    <Nav.Link as={Link} to={"/citytypePage"} className="navlink">縣市篩選</Nav.Link>
                                     {/* <NavDropdown title="Link" id="navbarScrollingDropdown">
                                         <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
                                         <NavDropdown.Item href="#action4">Another action</NavDropdown.Item>
@@ -47,7 +47,7 @@ function Navbarr() {
                                             Something else here
                                         </NavDropdown.Item>
                                     </NavDropdown> */}
-                                    <Nav.Link as={Link} to={"/memberPage"}>會員登入
+                                    <Nav.Link as={Link} to={"/memberPage"} className="navlink">會員登入
                                     </Nav.Link>
                                 </Nav>
                                 <Form className="d-flex">

@@ -26,10 +26,21 @@ function FoodtypePage() {
 
                 {/* 左側篩選器 */}
                 <div>
-                    <form action="">
-                        <p>營業</p>
-                        <input type="checkbox" id="opennow" />
-                        <label for="opennow">營業中</label><br />
+                    <form action="" className="situtationChoose">
+                        <input type="checkbox" id="wifi" name="wifi" />
+                        <label for="wifi" className="situtationBtn">有WIFI</label><br />
+                        <input type="checkbox" id="socket" name="socket" />
+                        <label for="socket" className="situtationBtn">有插座</label><br />
+                        <input type="checkbox" id="lowexpense" name="lowexpense" />
+                        <label for="lowexpense" className="situtationBtn">無低消</label><br />
+                        <input type="checkbox" id="servicecharge" name="servicecharge" />
+                        <label for="servicecharge" className="situtationBtn">無服務費</label><br />
+                        <input type="checkbox" id="timelimit" name="timelimit" />
+                        <label for="timelimit" className="situtationBtn">無時間限制</label><br />
+                        <input type="checkbox" id="petfriendly" name="petfriendly" />
+                        <label for="petfriendly" className="situtationBtn">寵物友善</label><br />
+                        <input type="checkbox" id="kidsfriendly" name="kidsfriendly" />
+                        <label for="kidsfriendly" className="situtationBtn">親子友善</label><br />
                     </form>
                 </div>
             </div>
@@ -43,7 +54,7 @@ function FoodtypePage() {
                         <div className="row ">
                             <div className="col-3 ">
                                 <Link to="/ResterauntPage">
-                                    <img className="storepic" src={carouselIMG} alt="" />
+                                    <img className="storepic" src="/images/carouselIMG11.jpg" alt="" />
                                 </Link>
                             </div>
                             <div className="col-3 storeinfor">
@@ -71,8 +82,6 @@ function FoodtypePage() {
                     <img src={upbacktop} className="backtopimg" alt="" />
                 </a>
             </section>
-
-
 
         </div>
     );

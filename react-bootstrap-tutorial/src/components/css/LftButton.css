@@ -16,8 +16,14 @@
     width: 200px;
     font-size: 20px;
     z-index: 5;
+    color: #EFBB24;
+    border: 1px solid #EFBB24;
   }
 
+  .btn-outline-warning:hover{
+    background-color: #EFBB24;
+    color: white;
+  }
   
   
   .FoodtypeGrid > div {
@@ -59,11 +65,17 @@
   @media only screen and (min-width: 300px) and (max-width: 999px)   {
     .btn-outline-warning {
         /* background-color: rgba(32, 178, 171, 0.322); */
-        width: 100px;
+        width: 130px;
+        top: -50px;
         /* font-size: 20px; */
         z-index: 5;
         position: relative;
         /* top: 30px; */
+    }
+
+    .FoodtypeGrid_title{
+      position: relative;
+      top: -50px;
     }
        
   }

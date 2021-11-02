@@ -86,7 +86,22 @@ body {
   text-decoration: none;
 }
 
+.situtationChoose{
+  position: relative;
+  top: 50px;
+  left: 20px;
+  text-align: left;
+  /* padding: 20px; */
+  /* border: 1px solid black; */
+}
 
+.situtationBtn{
+  /* border: 1px solid black; */
+  padding: 5px;
+  
+  /* left: 20px; */
+
+}
 /* 返回最上面快捷鈕----------------------- */
 .backtop{
   /* border: 1px solid black; */

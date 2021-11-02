@@ -24,7 +24,7 @@ function RitButton() {
         <React.Fragment>
             <section className="Citytype">
                 <div className="CitytypeGrid">
-                    <div className="Citytype_section">北部</div>
+                    <div className="Citytype_section" style={{ top: '50px' }}>北部</div>
                     <div>
                         <Button as={Link} to={"/citytypepage"} variant="outline-success">台北</Button>
                     </div>
@@ -59,7 +59,7 @@ function RitButton() {
 
             <section className="Citytype">
                 <div className="CitytypeGrid">
-                    <div className="Citytype_section">中部</div>
+                    <div className="Citytype_section" style={{ top: '50px' }}>中部</div>
                     <div>
                         <a href="">
                             <button type="button" className="btn btn-outline-success citytype_btn">苗栗</button>
@@ -92,7 +92,7 @@ function RitButton() {
 
             <section className="Citytype">
                 <div className="CitytypeGrid">
-                    <div className="Citytype_section">南部</div>
+                    <div className="Citytype_section" style={{ top: '50px' }}>南部</div>
                     <div>
                         <a href="">
                             <button type="button" className="btn btn-outline-success citytype_btn">嘉義</button>
@@ -122,7 +122,7 @@ function RitButton() {
             {/* 會斷開的東部 */}
             <section className="Citytype testttt">
                 <div className="CitytypeGrid_east ">
-                    <div className="Citytype_east ">東部</div>
+                    <div className="Citytype_east " style={{ top: '50px' }}>東部</div>
                     <div className="citytype_btnnn">
                         <a href="">
                             <button type="button" className="btn btn-outline-success citytype_btn ">花蓮</button>
@@ -141,7 +141,7 @@ function RitButton() {
 
             <section className="Citytype">
                 <div className="CitytypeGrid">
-                    <div className="Citytype_section">離島</div>
+                    <div className="Citytype_section" style={{ top: '50px' }}>離島</div>
                     <div>
                         <a href="">
                             <button type="button" className="btn btn-outline-success citytype_btn">澎湖</button>
